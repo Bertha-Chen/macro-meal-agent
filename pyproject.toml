@@ -1,0 +1,17 @@
+[project]
+name = "macro-meal-agent"
+version = "0.1.0"
+description = "A bilingual AI agent that logs your meals and suggests Taiwan-friendly meals to hit your macro targets."
+readme = "README.md"
+authors = [
+    { name = "Pin-Yu", email = "354480975+Bertha-Chen@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+macro-meal-agent = "macro_meal_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
